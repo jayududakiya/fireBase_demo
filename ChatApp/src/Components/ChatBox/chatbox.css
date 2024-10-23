@@ -1,0 +1,16 @@
+.center{    
+    overflow:auto;
+    .own-message{
+    align-self: flex-end;    
+    .texts{
+        p{
+            background-color: blueviolet;
+            padding:10px;
+            margin-bottom: 10px;
+            border-radius: 10px;
+            border: none;
+            color: antiquewhite;
+        }
+    }
+}
+}

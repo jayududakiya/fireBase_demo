@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background:url('./assets/bg-image00.png') center no-repeat ;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar{
+    width: 0.4rem;
+    background: #bcdffbbb;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background: #0863ad;
+    border-radius: 10px;
+    opacity: 0.5;
+}
